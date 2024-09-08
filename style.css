@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Exo 2", sans-serif;
+    
+}
+:root{
+    --x:rgb(66,8,8)
+}
+
+#main{
+    background-image: url('./images/bg1.webp');
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#bg{
+    background-color: rgba(0, 0, 0, 0.116);
+    width: 100%;
+    height: 100vh;
+}
+
+#logo{
+    /* height: 110px; */
+    width: 130px;
+    margin-top: -50px;
+}
+
+ul li{
+    font-size: 20px;
+}
+#BUTTON{
+    background-color: var(--x);
+    color: white;
+}
+#BUTTON:hover{
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+
+li i{
+    color: rgb(186, 182, 182);
+}
+
+/* @media(max-width:992px){
+    .nav-item i{
+        display: none;
+    }
+} */
+
+#welcome{
+    margin-top: 22%;
+    margin-left: 5%;
+    color: white;
+}
+
+#welcome h4{
+    font-size: 30px;
+}
+#welcome h1{
+    font-size: 100px;
+}
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+    
+    }
+    #navList ul li{
+        margin: 50px;
+    }   
+
+#navList li{
+        margin-left: -350px;
+    }
+
+#welcome button{
+    border-color: white;
+    color: white;
+}
+
+#work{
+    background-image: url('https://img.freepik.com/free-photo/white-blank-background-texture-design-element_53876-132773.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    margin-top: 12%;
+    padding-top: 6%;
+}
+}
+
+
+#viewBtn1,#viewBtn2,#viewBtn3,#viewBtn4{
+    background-color: rgba(255, 255, 255, 0.079);
+    color: var(--x);
+    border-color: var(--x);
+}
+ #viewBtn1:hover,#viewBtn2:hover,#viewBtn3:hover,#viewBtn4:hover{
+    background-color: var(--x);
+    color: white;
+}
+
+#about{
+    background-color: rgb(198, 197, 197);
+    padding-top: 7%;
+    padding-bottom: 5%;
+
+}
+
+#about h1{
+    color: var(--x);
+}
+
+#hr{
+    background-color: var(--x);
+    width: 175px;
+    height: 7px;
+}
+
+#about p{
+    text-align: justify;
+}
+
+#aboutDiv{
+    border: 7px solid var(--x);
+    width: 90%;
+    height: 490px;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+#div1{
+    background-color: rgba(0, 0, 0, 0.49);
+    width: 60%;
+    height: 6rem;
+    color: white;
+}
+
+.div2{
+    background-color: rgba(0, 0, 0, 0.49);
+    width: 70%;
+    height: 5rem;
+    color: white;
+}
+
+.div3{
+    background-color: rgba(0, 0, 0, 0.49);
+    width: 70%;
+    height: 5rem;
+    color: white;
+}
